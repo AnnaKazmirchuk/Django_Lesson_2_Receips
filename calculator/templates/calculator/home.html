@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  {% for recipe in recipes_list %}
+        <p><li><a href="/recipes/{{ recipe }}">{{ recipe}}</a></li>
+    {% endfor %}
+</body>
+</html>
